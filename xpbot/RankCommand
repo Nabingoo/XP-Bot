@@ -1,0 +1,2 @@
+select Level from Rankings where xpneeded >= (select xpamount from UserInfo where DiscordID = 84854837288) and min <= (select xpamount from UserInfo where DiscordID = 84854837288);
+select * from UserInfo;
